@@ -5,8 +5,7 @@ converted into database surface or curves, respectively, while keeping
 the original grid entities intact.
 
 1. Connectors are converted to database curves of polynomial degree 1.
-2. Structured domains are converted to database surfaces of polynomial degree 1.
-   a. You may optionally have the surface splined to degree 3.
+2. Structured domains are converted to database surfaces of polynomial degree 1. You may optionally have the surface splined to degree 3.
 3. Unstructured domains are converted to shell entities.
 
 ![ConvertGridToDatabase-Tk](https://raw.github.com/pointwise/ConvertGridToDatabase/master/ConvertGridToDatabase-Tk.png)
